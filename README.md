@@ -11,3 +11,7 @@ gateway.Send(sms.Message{
 	Text:  "Test Message",
 })
 ```
+
+[Документация](https://pkg.go.dev/github.com/ReanSn0w/go-iqsms@v1.0.0/pkg/sms)
+
+Лицензия MIT
