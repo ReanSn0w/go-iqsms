@@ -125,7 +125,7 @@ func (g *Gateway) getMessageStatus(value string) (*Result, error) {
 		return nil, errors.New("incorect values count")
 	}
 
-	return &Result{ID: values[0], Status: status(values[1])}, nil
+	return &Result{ID: values[1], Status: status(values[0])}, nil
 }
 
 func (g *Gateway) request(url string) (string, error) {
